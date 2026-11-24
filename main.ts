@@ -204,6 +204,12 @@ loops.everyInterval(0, function () {
         0,
         0
         )
+        hummingbird.setTriLED(
+        TwoPort.Two,
+        0,
+        0,
+        0
+        )
         basic.pause(1000)
     }
 })
